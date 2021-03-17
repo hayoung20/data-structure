@@ -9,10 +9,10 @@ public class BasicList {
 	      int[] score = new int[5]; {
 	          Scanner scanner = new Scanner (System.in);
 	          for(int i=0; i<score.length; i++) {
-	             System.out.print((i+1)+"��°");
+	             System.out.print((i+1)+"¹øÂ°");
 	             score[i] = scanner.nextInt();
 	          }
-	          System.out.println("\n�迭 ���");
+	          System.out.println("\n¹è¿­ Ãâ·Â");
 	          for(int i=0; i<score.length; i++) {
 	             System.out.println(score[i]);
 	          }
